@@ -1,6 +1,6 @@
 const CLOUDFLARE_AUTH_TOKEN = process.env?.CLOUDFLARE_AUTH_TOKEN || '',
     ZONE_ID =  process.env?.ZONE_ID || '',
-    AUTH_TOKEN = process.env?.AUTH_TOKEN;
+    AUTH_TOKEN = process.env?.AUTH_TOKEN || '';
 
 if(!CLOUDFLARE_AUTH_TOKEN) {
     throw new Error(`CLOUDFLARE_AUTH_TOKEN missing!`)
