@@ -17,3 +17,5 @@ app.use(dnsRecordsRoute)
 app.listen(PORT, () => {
 	console.log(`listening on http://localhost:${PORT}`);
 });
+
+export default app;
